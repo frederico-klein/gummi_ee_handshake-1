@@ -95,7 +95,7 @@
   </link>
   <joint
     name="forearm_roll"
-    type="continuous">
+    type="revolute">
     <origin
       xyz="0.043506 -0.00023376 -0.019876"
       rpy="-1.570796327  0 0" />
@@ -106,6 +106,8 @@
     <axis
       xyz="-1 0 0" />
     <limit
+      lower="-1.57"
+      upper="2.35"
       effort="0"
       velocity="1" />
   </joint>
