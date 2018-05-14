@@ -98,7 +98,7 @@
     type="continuous">
     <origin
       xyz="0.043506 -0.00023376 -0.019876"
-      rpy="0 0 0" />
+      rpy="-1.570796327  0 0" />
     <parent
       link="lowerarm_preroll_d" />
     <child
